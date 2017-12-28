@@ -8,9 +8,7 @@
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "^3.3",
-        "symfony/browser-kit": "^3.3",
         "symfony/console": "^3.3",
-        "symfony/css-selector": "^3.3",
         "symfony/debug-pack": "*",
         "symfony/expression-language": "^3.3",
         "symfony/flex": "^1.0",
@@ -29,6 +27,8 @@
         "symfony/yaml": "^3.3"
     },
     "require-dev": {
+        "symfony/browser-kit": "^3.3",
+        "symfony/css-selector": "^3.3",
         "symfony/dotenv": "^3.3",
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^3.3",
