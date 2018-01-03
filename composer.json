@@ -32,8 +32,7 @@
         "symfony/dotenv": "^3.4",
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^3.4",
-        "symfony/profiler-pack": "*",
-        "symfony/thanks": "^1.0"
+        "symfony/profiler-pack": "*"
     },
     "config": {
         "preferred-install": {
