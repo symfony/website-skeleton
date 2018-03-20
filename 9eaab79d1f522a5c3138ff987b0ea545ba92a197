@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------
+
+by vudaltsov at 2018-01-19T07:28:44Z
+
+We can also remove `symfony/profiler-pack` from the `dev` section because `symfony/debug-pack` requires it.
+
+---------------------------------------------------------------------------
+
+by fabpot at 2018-01-19T07:30:48Z
+
+I prefer to keep the explicitness of having `symfony/profiler-pack`. The only issue I can see with your proposal is Monologbundle, which is useful in the non-dev section. Perhaps it needs to be removed from the `debug-pack` and added explicitly here. WDTY?
+
+---------------------------------------------------------------------------
+
+by vudaltsov at 2018-01-19T07:43:53Z
+
+Agree with your point about explicitness.
+
+`symfony/monolog-bundle` is already mentioned in the `require` section now. So my proposal will not cause `monolog-bundle` removal in `--no-dev`.
+
+I would agree that logging and debugging are separate things. If you remove `monolog-bundle` from `debug-pack` than `easycorp/easy-log-handler` should be also removed and added explicitly to `require-dev` in the `website-skeleton`. But I think that might break someone's existing project depending on `debug-pack`...
