@@ -9,19 +9,18 @@
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "^3.4",
         "symfony/console": "^3.4",
-        "symfony/debug-pack": "*",
         "symfony/expression-language": "^3.4",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^3.4",
         "symfony/form": "^3.4",
         "symfony/lts": "^3",
-        "symfony/orm-pack": "*",
         "symfony/monolog-bundle": "^3.1",
+        "symfony/orm-pack": "*",
         "symfony/process": "^3.4",
         "symfony/security-bundle": "^3.4",
         "symfony/serializer-pack": "*",
-        "symfony/validator": "^3.4",
         "symfony/swiftmailer-bundle": "^3.1",
+        "symfony/validator": "^3.4",
         "symfony/web-link": "^3.4",
         "symfony/webpack-encore-pack": "*",
         "symfony/yaml": "^3.4"
@@ -29,10 +28,12 @@
     "require-dev": {
         "symfony/browser-kit": "^3.4",
         "symfony/css-selector": "^3.4",
+        "symfony/debug-pack": "*",
         "symfony/dotenv": "^3.4",
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^3.4",
-        "symfony/profiler-pack": "*"
+        "symfony/profiler-pack": "*",
+        "symfony/web-server-bundle": "^3.4"
     },
     "config": {
         "preferred-install": {
