@@ -73,7 +73,6 @@
     },
     "extra": {
         "symfony": {
-            "id": "",
             "allow-contrib": false
         }
     }
