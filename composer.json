@@ -27,13 +27,10 @@
         "symfony/yaml": "^3.4"
     },
     "require-dev": {
-        "symfony/browser-kit": "^3.4",
-        "symfony/css-selector": "^3.4",
         "symfony/debug-pack": "*",
         "symfony/dotenv": "^3.4",
         "symfony/maker-bundle": "^1.0",
-        "symfony/phpunit-bridge": "^3.4",
-        "symfony/profiler-pack": "*",
+        "symfony/test-pack": "^1.0",
         "symfony/web-server-bundle": "^3.4"
     },
     "config": {
