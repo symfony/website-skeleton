@@ -1,0 +1,5 @@
+---------------------------------------------------------------------------
+
+by fabpot at 2018-05-08T06:39:01Z
+
+I'd keep the profiler pack to make it more explicit and easy to remove. Adding the test pack is a great idea.
