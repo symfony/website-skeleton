@@ -23,7 +23,6 @@
         "symfony/twig-bundle": "^3.4",
         "symfony/validator": "^3.4",
         "symfony/web-link": "^3.4",
-        "symfony/webpack-encore-pack": "*",
         "symfony/yaml": "^3.4"
     },
     "require-dev": {
