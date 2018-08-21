@@ -8,31 +8,30 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "sensio/framework-extra-bundle": "^5.1",
-        "symfony/asset": "^3.4",
-        "symfony/console": "^3.4",
-        "symfony/expression-language": "^3.4",
-        "symfony/flex": "^1.0",
-        "symfony/form": "^3.4",
-        "symfony/framework-bundle": "^3.4",
-        "symfony/lts": "^3",
+        "symfony/asset": "*",
+        "symfony/console": "*",
+        "symfony/expression-language": "*",
+        "symfony/flex": "^1.1",
+        "symfony/form": "*",
+        "symfony/framework-bundle": "*",
         "symfony/monolog-bundle": "^3.1",
         "symfony/orm-pack": "*",
-        "symfony/process": "^3.4",
-        "symfony/security-bundle": "^3.4",
+        "symfony/process": "*",
+        "symfony/security-bundle": "*",
         "symfony/serializer-pack": "*",
         "symfony/swiftmailer-bundle": "^3.1",
-        "symfony/twig-bundle": "^3.4",
-        "symfony/validator": "^3.4",
-        "symfony/web-link": "^3.4",
-        "symfony/yaml": "^3.4"
+        "symfony/twig-bundle": "*",
+        "symfony/validator": "*",
+        "symfony/web-link": "*",
+        "symfony/yaml": "*"
     },
     "require-dev": {
         "symfony/debug-pack": "*",
-        "symfony/dotenv": "^3.4",
+        "symfony/dotenv": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
-        "symfony/test-pack": "^1.0",
-        "symfony/web-server-bundle": "^3.4"
+        "symfony/test-pack": "*",
+        "symfony/web-server-bundle": "*"
     },
     "config": {
         "preferred-install": {
@@ -71,7 +70,8 @@
     },
     "extra": {
         "symfony": {
-            "allow-contrib": false
+            "allow-contrib": false,
+            "require": "3.4.*"
         }
     }
 }
