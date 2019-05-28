@@ -77,7 +77,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "4.4.*"
+            "require": "5.0.*"
         }
     }
 }
