@@ -398,12 +398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineBundle.git",
-                "reference": "702525279a6cf7e609fba10d510993f67113db25"
+                "reference": "eb068c210a8c735c087ac93f9754b2798aec00a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/702525279a6cf7e609fba10d510993f67113db25",
-                "reference": "702525279a6cf7e609fba10d510993f67113db25",
+                "url": "https://api.github.com/repos/doctrine/DoctrineBundle/zipball/eb068c210a8c735c087ac93f9754b2798aec00a8",
+                "reference": "eb068c210a8c735c087ac93f9754b2798aec00a8",
                 "shasum": ""
             },
             "require": {
@@ -411,11 +411,11 @@
                 "doctrine/doctrine-cache-bundle": "~1.2",
                 "jdorn/sql-formatter": "^1.2.16",
                 "php": "^7.1",
-                "symfony/config": "^3.4|^4.1",
-                "symfony/console": "^3.4|^4.1",
-                "symfony/dependency-injection": "^3.4|^4.1",
-                "symfony/doctrine-bridge": "^3.4|^4.1",
-                "symfony/framework-bundle": "^3.4|^4.1"
+                "symfony/config": "^3.4|^4.1|^5.0",
+                "symfony/console": "^3.4|^4.1|^5.0",
+                "symfony/dependency-injection": "^3.4|^4.1|^5.0",
+                "symfony/doctrine-bridge": "^3.4|^4.1|^5.0",
+                "symfony/framework-bundle": "^3.4|^4.1|^5.0"
             },
             "conflict": {
                 "doctrine/orm": "<2.6",
@@ -426,12 +426,12 @@
                 "doctrine/orm": "^2.6",
                 "php-coveralls/php-coveralls": "^2.1",
                 "phpunit/phpunit": "7.0",
-                "symfony/cache": "^3.4|^4.1",
-                "symfony/phpunit-bridge": "^4.2",
-                "symfony/property-info": "^3.4|^4.1",
-                "symfony/validator": "^3.4|^4.1",
-                "symfony/web-profiler-bundle": "^3.4|^4.1",
-                "symfony/yaml": "^3.4|^4.1",
+                "symfony/cache": "^3.4|^4.1|^5.0",
+                "symfony/phpunit-bridge": "^4.2|^5.0",
+                "symfony/property-info": "^3.4|^4.1|^5.0",
+                "symfony/validator": "^3.4|^4.1|^5.0",
+                "symfony/web-profiler-bundle": "^3.4|^4.1|^5.0",
+                "symfony/yaml": "^3.4|^4.1|^5.0",
                 "twig/twig": "^1.34|^2.4"
             },
             "suggest": {
@@ -479,7 +479,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2019-05-24T18:14:51+00:00"
+            "time": "2019-05-28T15:05:54+00:00"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -487,19 +487,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineCacheBundle.git",
-                "reference": "61ce8deded490d11c653e68e15f6ca7bd3199d13"
+                "reference": "cfc1ce9b036a37d2ee55a02890a88fa11f55579e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/61ce8deded490d11c653e68e15f6ca7bd3199d13",
-                "reference": "61ce8deded490d11c653e68e15f6ca7bd3199d13",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/cfc1ce9b036a37d2ee55a02890a88fa11f55579e",
+                "reference": "cfc1ce9b036a37d2ee55a02890a88fa11f55579e",
                 "shasum": ""
             },
             "require": {
                 "doctrine/cache": "^1.4.2",
                 "doctrine/inflector": "^1.0",
                 "php": "^7.1",
-                "symfony/doctrine-bridge": "^3.4|^4.0"
+                "symfony/doctrine-bridge": "^3.4|^4.0|^5.0"
             },
             "require-dev": {
                 "instaclick/coding-standard": "~1.1",
@@ -509,13 +509,13 @@
                 "predis/predis": "~0.8",
                 "satooshi/php-coveralls": "^1.0",
                 "squizlabs/php_codesniffer": "~1.5",
-                "symfony/console": "^3.4|^4.0",
-                "symfony/finder": "^3.4|^4.0",
-                "symfony/framework-bundle": "^3.4|^4.0",
-                "symfony/phpunit-bridge": "^3.4|^4.0",
+                "symfony/console": "^3.4|^4.0|^5.0",
+                "symfony/finder": "^3.4|^4.0|^5.0",
+                "symfony/framework-bundle": "^3.4|^4.0|^5.0",
+                "symfony/phpunit-bridge": "^3.4|^4.0|^5.0",
                 "symfony/security-acl": "^2.8",
-                "symfony/validator": "^3.4|^4.0",
-                "symfony/yaml": "^3.4|^4.0"
+                "symfony/validator": "^3.4|^4.0|^5.0",
+                "symfony/yaml": "^3.4|^4.0|^5.0"
             },
             "suggest": {
                 "symfony/security-acl": "For using this bundle to cache ACLs"
@@ -570,7 +570,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2019-04-24T13:48:06+00:00"
+            "time": "2019-05-28T15:06:58+00:00"
         },
         {
             "name": "doctrine/doctrine-migrations-bundle",
@@ -987,12 +987,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "30c5a0033d93b13783e4547e2950dbbac7f692f7"
+                "reference": "9e736727180f47f1bf82a05d9744a121de3de790"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/30c5a0033d93b13783e4547e2950dbbac7f692f7",
-                "reference": "30c5a0033d93b13783e4547e2950dbbac7f692f7",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/9e736727180f47f1bf82a05d9744a121de3de790",
+                "reference": "9e736727180f47f1bf82a05d9744a121de3de790",
                 "shasum": ""
             },
             "require": {
@@ -1004,13 +1004,13 @@
                 "doctrine/instantiator": "~1.1",
                 "ext-pdo": "*",
                 "php": "^7.1",
-                "symfony/console": "~3.0|~4.0"
+                "symfony/console": "^3.0|^4.0|^5.0"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^1.0",
                 "phpunit/phpunit": "^6.5",
                 "squizlabs/php_codesniffer": "^3.2",
-                "symfony/yaml": "~3.4|~4.0"
+                "symfony/yaml": "^3.4|^4.0|^5.0"
             },
             "suggest": {
                 "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
@@ -1061,7 +1061,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2019-02-11T14:38:03+00:00"
+            "time": "2019-05-28T15:13:13+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -2199,7 +2199,7 @@
         },
         {
             "name": "symfony/cache-contracts",
-            "version": "dev-master",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache-contracts.git",
@@ -2742,7 +2742,7 @@
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "dev-master",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
@@ -3003,12 +3003,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/form.git",
-                "reference": "d083f79333675093ad54d235920b1d9bae14704f"
+                "reference": "f2473c6a91b6d77b6c293b09ce2ebb079f4c8f21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/form/zipball/d083f79333675093ad54d235920b1d9bae14704f",
-                "reference": "d083f79333675093ad54d235920b1d9bae14704f",
+                "url": "https://api.github.com/repos/symfony/form/zipball/f2473c6a91b6d77b6c293b09ce2ebb079f4c8f21",
+                "reference": "f2473c6a91b6d77b6c293b09ce2ebb079f4c8f21",
                 "shasum": ""
             },
             "require": {
@@ -3078,7 +3078,7 @@
             ],
             "description": "Symfony Form Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-20T16:16:12+00:00"
+            "time": "2019-05-29T13:02:41+00:00"
         },
         {
             "name": "symfony/framework-bundle",
@@ -3086,12 +3086,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "a0b7cc06a1ffa715fa22a11c724d2cd3985c3246"
+                "reference": "19714b45c7b5af238e66720017bae6fcf2d5fa01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/a0b7cc06a1ffa715fa22a11c724d2cd3985c3246",
-                "reference": "a0b7cc06a1ffa715fa22a11c724d2cd3985c3246",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/19714b45c7b5af238e66720017bae6fcf2d5fa01",
+                "reference": "19714b45c7b5af238e66720017bae6fcf2d5fa01",
                 "shasum": ""
             },
             "require": {
@@ -3200,7 +3200,7 @@
             ],
             "description": "Symfony FrameworkBundle",
             "homepage": "https://symfony.com",
-            "time": "2019-05-27T08:16:38+00:00"
+            "time": "2019-05-30T03:17:01+00:00"
         },
         {
             "name": "symfony/http-client",
@@ -3266,7 +3266,7 @@
         },
         {
             "name": "symfony/http-client-contracts",
-            "version": "dev-master",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client-contracts.git",
@@ -3327,12 +3327,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "c566df1958856bfcf25804bbb56315f50a4e5607"
+                "reference": "e8da078912bed1339f046c3a9488a5cbd0605971"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/c566df1958856bfcf25804bbb56315f50a4e5607",
-                "reference": "c566df1958856bfcf25804bbb56315f50a4e5607",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/e8da078912bed1339f046c3a9488a5cbd0605971",
+                "reference": "e8da078912bed1339f046c3a9488a5cbd0605971",
                 "shasum": ""
             },
             "require": {
@@ -3374,7 +3374,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-28T08:29:18+00:00"
+            "time": "2019-05-29T18:10:42+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -3382,12 +3382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "6f925c38c01f05e3a7f2984aaa2dbb806241e5c8"
+                "reference": "ed4f7aee6239aa901190a17372f1571803f89f9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/6f925c38c01f05e3a7f2984aaa2dbb806241e5c8",
-                "reference": "6f925c38c01f05e3a7f2984aaa2dbb806241e5c8",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/ed4f7aee6239aa901190a17372f1571803f89f9b",
+                "reference": "ed4f7aee6239aa901190a17372f1571803f89f9b",
                 "shasum": ""
             },
             "require": {
@@ -3466,7 +3466,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-28T12:37:30+00:00"
+            "time": "2019-05-30T06:26:43+00:00"
         },
         {
             "name": "symfony/inflector",
@@ -3532,12 +3532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/intl.git",
-                "reference": "2c8521c3090132d4de2690fef78b6d0d06d7ca88"
+                "reference": "98e7de6ec772cdb6085abf947cb08953cb24f441"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/intl/zipball/2c8521c3090132d4de2690fef78b6d0d06d7ca88",
-                "reference": "2c8521c3090132d4de2690fef78b6d0d06d7ca88",
+                "url": "https://api.github.com/repos/symfony/intl/zipball/98e7de6ec772cdb6085abf947cb08953cb24f441",
+                "reference": "98e7de6ec772cdb6085abf947cb08953cb24f441",
                 "shasum": ""
             },
             "require": {
@@ -3599,7 +3599,7 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2019-05-09T09:38:41+00:00"
+            "time": "2019-05-29T18:02:35+00:00"
         },
         {
             "name": "symfony/mime",
@@ -4877,7 +4877,7 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "dev-master",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
@@ -5126,7 +5126,7 @@
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "dev-master",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
@@ -5361,12 +5361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "81da1cf18ad089fcde30950edf8aa01b4ce96ec9"
+                "reference": "6ad0600c5a4bb673a627533f88b77b2af43e71b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/81da1cf18ad089fcde30950edf8aa01b4ce96ec9",
-                "reference": "81da1cf18ad089fcde30950edf8aa01b4ce96ec9",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/6ad0600c5a4bb673a627533f88b77b2af43e71b7",
+                "reference": "6ad0600c5a4bb673a627533f88b77b2af43e71b7",
                 "shasum": ""
             },
             "require": {
@@ -5445,7 +5445,7 @@
             ],
             "description": "Symfony Validator Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-27T08:16:38+00:00"
+            "time": "2019-05-29T13:02:41+00:00"
         },
         {
             "name": "symfony/var-exporter",
@@ -5645,12 +5645,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "0ee23617398ab011f606ca5580e55070f6968062"
+                "reference": "988b34b7446f1823adc28a58a96e22a8c92adc9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/0ee23617398ab011f606ca5580e55070f6968062",
-                "reference": "0ee23617398ab011f606ca5580e55070f6968062",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/988b34b7446f1823adc28a58a96e22a8c92adc9f",
+                "reference": "988b34b7446f1823adc28a58a96e22a8c92adc9f",
                 "shasum": ""
             },
             "require": {
@@ -5704,7 +5704,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-05-28T10:28:06+00:00"
+            "time": "2019-05-28T13:00:43+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -6382,19 +6382,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "779c6259b4f10c72b5b12c530f235a2ddfc26f37"
+                "reference": "1faada16d6a2c782f0f0adbd4738315352864159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/779c6259b4f10c72b5b12c530f235a2ddfc26f37",
-                "reference": "779c6259b4f10c72b5b12c530f235a2ddfc26f37",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/1faada16d6a2c782f0f0adbd4738315352864159",
+                "reference": "1faada16d6a2c782f0f0adbd4738315352864159",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
             "conflict": {
-                "phpunit/phpunit": "<4.8.35|<5.4.3,>=5.0"
+                "phpunit/phpunit": "<5.4.3"
             },
             "suggest": {
                 "symfony/debug": "For tracking deprecated interfaces usages at runtime with DebugClassLoader"
@@ -6439,7 +6439,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2019-05-28T12:18:42+00:00"
+            "time": "2019-05-28T18:01:02+00:00"
         },
         {
             "name": "symfony/profiler-pack",
