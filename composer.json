@@ -32,6 +32,8 @@
         "symfony/web-link": "*",
         "symfony/yaml": "*"
     },
+    "require-dev": {
+    },
     "flex-require-dev": {
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
