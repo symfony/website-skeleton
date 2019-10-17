@@ -27,7 +27,7 @@
         "symfony/serializer-pack": "*",
         "symfony/swiftmailer-bundle": "^3.1",
         "symfony/translation": "*",
-        "symfony/twig-bundle": "*",
+        "symfony/twig-pack": "*",
         "symfony/validator": "*",
         "symfony/web-link": "*",
         "symfony/yaml": "*"
