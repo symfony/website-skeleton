@@ -27,7 +27,7 @@
         "symfony/serializer-pack": "*",
         "symfony/swiftmailer-bundle": "^3.1",
         "symfony/translation": "*",
-        "symfony/twig-bundle": "*",
+        "symfony/twig-pack": "*",
         "symfony/validator": "*",
         "symfony/web-link": "*",
         "symfony/yaml": "*"
@@ -38,8 +38,7 @@
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
-        "symfony/test-pack": "*",
-        "symfony/web-server-bundle": "*"
+        "symfony/test-pack": "*"
     },
     "config": {
         "preferred-install": {
