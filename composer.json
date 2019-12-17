@@ -43,6 +43,7 @@
         "symfony/test-pack": "*"
     },
     "config": {
+        "optimize-autoloader": true,
         "preferred-install": {
             "*": "dist"
         },
