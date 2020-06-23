@@ -26,6 +26,7 @@
         "symfony/notifier": "*",
         "symfony/orm-pack": "*",
         "symfony/process": "*",
+        "symfony/runtime": "*",
         "symfony/security-bundle": "*",
         "symfony/serializer-pack": "*",
         "symfony/string": "*",
