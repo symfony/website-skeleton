@@ -4,6 +4,7 @@
     "license": "MIT",
     "description": "A skeleton to start a new Symfony website",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
