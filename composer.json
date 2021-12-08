@@ -40,6 +40,9 @@
         "symfony/test-pack": "*"
     },
     "config": {
+        "allow-plugins": {
+            "symfony/flex": true
+        },
         "preferred-install": {
             "*": "dist"
         },
