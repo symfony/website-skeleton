@@ -9,14 +9,12 @@
         "php": ">=7.2.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "symfony/flex": "^1.17|^2"
-    },
-    "flex-require": {
         "sensio/framework-extra-bundle": "^6.1",
         "symfony/asset": "*",
         "symfony/console": "*",
         "symfony/dotenv": "*",
         "symfony/expression-language": "*",
+        "symfony/flex": "^1.17|^2",
         "symfony/form": "*",
         "symfony/framework-bundle": "*",
         "symfony/http-client": "*",
@@ -38,8 +36,6 @@
         "symfony/yaml": "*"
     },
     "require-dev": {
-    },
-    "flex-require-dev": {
         "symfony/debug-pack": "*",
         "symfony/maker-bundle": "^1.0",
         "symfony/profiler-pack": "*",
